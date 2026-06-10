@@ -90,7 +90,7 @@ public class ChildProfileFrame extends BaseFrame {
 
         addContent(content);
     }
-
+    
     private void choosePic() {
         JFileChooser fc = new JFileChooser();
         fc.setFileFilter(new javax.swing.filechooser.FileNameExtensionFilter("Images","png","jpg","jpeg","gif"));
