@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * environment variables SH_EMAIL and SH_PASS set to a Gmail account that has
  * "App Passwords" enabled (2-FA + App Password, NOT your real password).
  * Without those env vars, the OTP is printed to System.out and shown in a
- * dialog (test / offline mode)  perfectly usable during development.
+ * dialog (test / offline mode)  perfectly usable during development. 
  */
 public class EmailService {
     private static EmailService instance;
